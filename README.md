@@ -1,9 +1,31 @@
-# Vue 3 + TypeScript + Vite
+# E Money Frontend Test
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is for demostrating the usage of Indexed DB along with Vue and Typescript.
 
-## Recommended Setup
+## Setup Locally
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+* Clone the project
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+```
+git clone https://github.com/AnmolBansalDEV/indexdb-demo.git
+```
+
+* install the dependencies
+
+```
+npm install
+```
+
+* run the dev server
+
+```
+npm run dev
+```
+
+* Volia! visit the project [here](http://localhost:5173/)
+
+## Project flow
+
+Using the form on the Home page we are able to input the user details using a form and then the form stores the user details into the indexedDB.
+
+Then if you want to access the stored user data in the indexedDB, go on to the `/users` route and then you'll be able to find all the users stored in the indexedDB
