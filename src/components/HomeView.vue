@@ -24,9 +24,6 @@ const formSchema = toTypedSchema(
       .email("This is not a valid email."),
   })
 );
-const form = useForm({
-  validationSchema: formSchema,
-});
 
 const { handleSubmit } = useForm({
   validationSchema: formSchema,
